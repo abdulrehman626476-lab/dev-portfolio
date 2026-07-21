@@ -278,3 +278,125 @@ body.light-mode .btn.secondary {
         display: flex;
     }
 }
+/* ============================================ */
+/* FEATURED WORK & PROJECT CARDS GRID           */
+/* ============================================ */
+
+.projects-section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #f8fafc;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+/* Flex / Grid container */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+/* Individual Card Styling */
+.project-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Tech Pills List */
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tech-stack li {
+  font-size: 0.8rem;
+  background: #0f172a;
+  color: #94a3b8;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+}
+
+/* Action Buttons */
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #f8fafc;
+  border: 1px solid #475569;
+}
+
+.btn-outline:hover {
+  border-color: #94a3b8;
+  background: rgba(255, 255, 255, 0.05);
+}
