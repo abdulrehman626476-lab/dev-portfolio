@@ -12,18 +12,20 @@
   <meta name="author" content="Abdul Rehman">
 
   <!-- Open Graph / Facebook / WhatsApp -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://dev-portfolio-eight-liart.vercel.app/">
-  <meta property="og:title" content="Abdul Rehman | Digital Architect">
-  <meta property="og:description" content="Building high-performance, accessible web applications optimized for search engines and users alike.">
-  <meta property="og:image" content="https://dev-portfolio-eight-liart.vercel.app/og-image.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dev-portfolio-eight-liart.vercel.app/">
+<meta property="og:title" content="Abdul Rehman | Digital Architect">
+<meta property="og:description" content="Building high-performance, accessible web applications optimized for search engines and users alike.">
+<!-- Update this line -->
+<meta property="og:image" content="https://dev-portfolio-eight-liart.vercel.app/og-image.png">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://dev-portfolio-eight-liart.vercel.app/">
-  <meta property="twitter:title" content="Abdul Rehman | Digital Architect">
-  <meta property="twitter:description" content="Building high-performance, accessible web applications optimized for search engines and users alike.">
-  <meta property="twitter:image" content="https://dev-portfolio-eight-liart.vercel.app/og-image.png">
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://dev-portfolio-eight-liart.vercel.app/">
+<meta property="twitter:title" content="Abdul Rehman | Digital Architect">
+<meta property="twitter:description" content="Building high-performance, accessible web applications optimized for search engines and users alike.">
+<!-- Update this line -->
+<meta property="twitter:image" content="https://dev-portfolio-eight-liart.vercel.app/og-image.png">
 
   <!-- Favicon & Stylesheets -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2310B981'/><circle cx='50' cy='50' r='20' fill='%23A7F3D0'/></svg>">
@@ -73,38 +75,49 @@
 
     <!-- Main Content Area -->
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container hero-content">
-                <h1>Bridging Code & <span class="highlight">Technical SEO</span></h1>
-                <p>Building high-performance, accessible web applications optimized for search engine crawlers and users alike.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn primary">View Projects</a>
-                    <a href="#contact" class="btn secondary">Get In Touch</a>
-                </div>
-            </div>
-        </section>
+       <!-- ============================================ -->
+<!-- HERO SECTION                                 -->
+<!-- ============================================ -->
+<section id="hero" class="hero-section">
+  <div class="container hero-content">
+    <span class="hero-badge">Available for Projects & Collaboration</span>
+    <h1 class="hero-title">
+      Bridging Code & <span class="highlight">Technical SEO</span>
+    </h1>
+    <p class="hero-subtitle">
+      Hi, I'm <strong>Abdul Rehman</strong> — a Digital Architect focused on building high-performance, accessible web applications optimized for search engine crawlers and users alike.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </div>
+</section>
 
-        <!-- Technical Skills Section -->
-        <section id="skills" class="skills-section">
-            <div class="container">
-                <h2 class="section-title">Core Competencies</h2>
-                <div class="grid-3">
-                    <div class="card">
-                        <h3>Frontend Development</h3>
-                        <p>Clean HTML5, CSS Grid/Flexbox, ES6+ JavaScript, Responsive Mobile-First Design.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Technical SEO</h3>
-                        <p>Core Web Vitals tuning, JSON-LD Schema, Crawlability, Site Architecture & Speed.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Automation & Scripting</h3>
-                        <p>Python web scraping (`BeautifulSoup`, `requests`), log file analysis, data processing.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- ============================================ -->
+<!-- SKILLS & CORE COMPETENCIES                   -->
+<!-- ============================================ -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="section-title">Core Competencies</h2>
+    <p class="section-subtitle">A balanced breakdown of frontend development and search engine optimization.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend Development</h3>
+        <p>Clean HTML5, CSS Grid/Flexbox, ES6+ JavaScript, Responsive Mobile-First Design.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Technical SEO</h3>
+        <p>Core Web Vitals tuning, JSON-LD Schema, Crawlability, Site Architecture & Speed.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Workflow & Tools</h3>
+        <p>Version control with Git/GitHub, CI/CD automated deployments with Vercel, VS Code.</p>
+      </div>
+    </div>
+  </div>
+</section>
          <!-- ============================================ -->
 <!-- PROJECTS SECTION                            -->
 <!-- ============================================ -->
@@ -182,12 +195,44 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2026 Portfolio Project. Built for high performance.</p>
-        </div>
-    </footer>
+<!-- ============================================ -->
+<!-- CONTACT & FOOTER                             -->
+<!-- ============================================ -->
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container text-center">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="section-subtitle">
+      Have a project in mind, need technical SEO optimization, or just want to chat? Send a message below!
+    </p>
+
+    <form id="contact-form" action="https://formspree.io/f/maqrpead" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name" class="sr-only">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="sr-only">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message" class="sr-only">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message..." required></textarea>
+      </div>
+
+      <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+      <p id="form-status" class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container text-center">
+    <p>© 2026 Abdul Rehman. All rights reserved.</p>
+  </div>
+</footer>
   <script src="script.js"></script>
 </body>
 </html>
