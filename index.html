@@ -34,26 +34,43 @@
   <!-- <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"> -->
   <link rel="stylesheet" href="style.css">
                   <!-- JSON-LD Structured Data for Google -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Abdul Rehman",
-    "jobTitle": "Digital Architect & Web Developer",
-    "url": "https://dev-portfolio-eight-liart.vercel.app/",
-    "sameAs": [
-      "https://github.com/abdulrehman626476-lab"
-    ],
-    "knowsAbout": [
-      "Web Development",
-      "Technical SEO",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Git & GitHub"
-    ]
-  }
-  </script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://dev-portfolio-eight-liart.vercel.app/#person",
+      "name": "Abdul Rehman",
+      "jobTitle": "Digital Architect & Web Developer",
+      "url": "https://dev-portfolio-eight-liart.vercel.app/",
+      "sameAs": [
+        "https://github.com/abdulrehman626476-lab"
+      ],
+      "knowsAbout": [
+        "Web Development",
+        "Technical SEO",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Git & GitHub",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dev-portfolio-eight-liart.vercel.app/#website",
+      "url": "https://dev-portfolio-eight-liart.vercel.app/",
+      "name": "Abdul Rehman | Developer Portfolio",
+      "description": "High-performance developer portfolio showcasing web development, technical SEO, and frontend engineering projects.",
+      "publisher": {
+        "@id": "https://dev-portfolio-eight-liart.vercel.app/#person"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
