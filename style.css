@@ -446,3 +446,23 @@ body.light-mode .site-header {
 .form-status.error {
   color: #ef4444;
 }
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background-color: rgba(56, 189, 248, 0.1);
+  color: var(--accent);
+  border-radius: 12px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
