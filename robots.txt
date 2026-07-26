@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://dev-portfolio-eight-liart.vercel.app/sitemap.xml
